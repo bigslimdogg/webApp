@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>creationServlet</servlet-name>
+        <servlet-class>mvc.controller.CreationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>creationServlet</servlet-name>
+        <url-pattern>/creationServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>deleteServlet</servlet-name>
+        <servlet-class>mvc.controller.DeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteServlet</servlet-name>
+        <url-pattern>/deleteServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>dataServlet</servlet-name>
+        <servlet-class>mvc.controller.DataServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dataServlet</servlet-name>
+        <url-pattern>/dataServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>connectionServlet</servlet-name>
+        <servlet-class>mvc.controller.ConnectionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>connectionServlet</servlet-name>
+        <url-pattern>/connectionServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>informationServlet</servlet-name>
+        <servlet-class>mvc.controller.InformationServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>informationServlet</servlet-name>
+        <url-pattern>/informationServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>routeServlet</servlet-name>
+        <servlet-class>mvc.controller.RouteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>routeServlet</servlet-name>
+        <url-pattern>/routeServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>editServlet</servlet-name>
+        <servlet-class>mvc.controller.EditServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>editServlet</servlet-name>
+        <url-pattern>/editServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
